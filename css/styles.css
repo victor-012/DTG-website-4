@@ -1,0 +1,120 @@
+body {
+  text-align: center;
+  font-family: 'Oswald', sans-serif;
+}
+
+h1 {
+  font-family: 'Oswald', sans-serif;
+  color: #dc3545;
+}
+
+h2 {
+  font-family: 'Oswald', sans-serif;
+}
+
+h3 {
+  font-family: 'Oswald', sans-serif;
+  padding-top: 30px;
+}
+
+#title {
+  background-color: black;
+  color: #fff;
+}
+
+.pro-pic {
+  width: 80%;
+  margin-top: 100px;
+  margin-left: 60px;
+}
+
+.Brand {
+  font-size: 2.5rem;
+}
+
+.download-button-1 {
+  margin-top: 25px;
+  margin-right: 20px;
+  padding: 10px 30px;
+}
+
+.download-button-2 {
+  margin-top: 25px;
+  margin-right: 20px;
+  padding: 10px 60px;
+}
+
+.nav-item {
+  padding: 20px;
+}
+
+.title-text {
+  text-align: center;
+  padding: 150px 0;
+}
+
+.container-fluid {
+  padding: 3% 15% 7%;
+}
+
+/* Channel */
+#channel {
+  text-align: center;
+  background-color: #dc3545;
+  color: #fff;
+}
+
+.carousel-item {
+  padding: 7% 15%;
+}
+
+.channel-text {
+  font-size: 1.5rem;
+}
+
+.channel-img {
+  width: 40%;
+  padding: 20px;
+}
+
+/* Footer */
+#footer {
+  color: #fff;
+  background-color: black;
+  padding: 30px 0 50px;
+}
+
+.icon:hover {
+  color: #950101;
+}
+
+.p-footer {
+  font-family: 'Oswald', sans-serif;
+  padding-top: 20px;
+}
+
+.foot-icon {
+  padding: 20px;
+}
+
+@media (max-width: 900px) {
+  #title {
+    position: static;
+    text-align: center;
+  }
+
+  .title-text {
+    padding: 80px 0;
+  }
+
+  .pro-pic {
+    width: 50%;
+    margin-top: 0;
+    margin-left: 0;
+    margin-bottom: 40px;
+  }
+
+  .channel-img {
+    width: 350px;
+  }
+}
